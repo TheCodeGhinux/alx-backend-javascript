@@ -13,3 +13,11 @@ export function taskNext() {
 
   return combination;
 }
+
+const printTeacher = (firstName, lastName) => {
+  const result = firstName.charAt(0) + "." + " " + lastName
+
+  return result
+}
+
+console.log(printTeacher("John", "Doe"))
